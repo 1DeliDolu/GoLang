@@ -8,7 +8,6 @@
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente ducimus possimus praesentium quaerat libero omnis rem eius quas qui iure id tenetur autem est eum, commodi ipsa sit labore nam!
                 <p>Rick's sidekick Morty doesn't really have a catchphrase but likes to say something like {{index .StringMap "morty"}}</p>
                 <p>
-                    <a href="/">home page</a> 
                     {{if ne (index .StringMap "remote_ip") "" }}
                     Your ip address is {{index .StringMap "remote_ip"}}
                     {{else}}
